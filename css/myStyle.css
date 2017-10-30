@@ -1,0 +1,160 @@
+/*
+* @ Auhor:Jardel José Jacob;
+* @ Description: Desenvolvedor Web;
+*/
+
+.title h2, h4{
+    color: #e67e05;
+}
+/*
+*Efeito do video no Background
+*/
+.FullscreenVideo{
+    display:block!important;
+    position:absolute!important;
+    width:100%!important;
+    height:100%!important;
+    top:0!important;
+    left:0!important;
+    margin:0!important;
+    border:none!important;
+    opacity:1 !important;
+    background-color:rgba(0,0,0,0.6)
+}
+/*
+* Service Details Modal Area CSS
+*/
+.section_padding_Modal-30 {
+    padding: 30px 0;
+}
+.modal-dialog-servise {
+    margin: 100px auto 50px;
+    max-width: 1200px;
+}
+.top_message{
+    padding: 5px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.20);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.20);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.20);
+
+}
+.top_message p{
+    color: #000
+}
+.form{
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+/*
+* Bredcumb Area Modal CSS
+*/
+
+.breadcumb_area_modal {
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    z-index: 1;
+}
+.breadcumb_section_modal {
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+.page_title_modal {
+    position: relative;
+    z-index: 99;
+
+}
+.page_title_modal>h3 {
+    color: #f6f6f6;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.service_details_thumb_modal {
+    border: 1px solid #f6f6f6;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    
+}
+/*
+* Separadores
+*/
+.separator-2,
+.separator-3 .t10{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    height: 2px;
+    margin-top: 10px
+}
+.separator-2,
+.separator-3 .t10{
+    margin-top: 5px;
+}
+.separator-2:after,
+.separator-3:after {
+    content: "";
+    height: 1px;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    position: absolute
+}
+.separator-2:after {
+    background: #d1d1d1;
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, .18) 0, rgba(0, 0, 0, .12) 35%, rgba(0, 0, 0, .05) 70%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, .18)), color-stop(35%, rgba(0, 0, 0, .12)), color-stop(70%, rgba(0, 0, 0, .05)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, .18) 0, rgba(0, 0, 0, .12) 35%, rgba(0, 0, 0, .05) 70%, rgba(0, 0, 0, 0) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, .18) 0, rgba(0, 0, 0, .12) 35%, rgba(0, 0, 0, .05) 70%, rgba(0, 0, 0, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, .18) 0, rgba(0, 0, 0, .12) 35%, rgba(0, 0, 0, .05) 70%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, .18) 0, rgba(0, 0, 0, .12) 35%, rgba(0, 0, 0, .05) 70%, rgba(0, 0, 0, 0) 100%)
+}
+/*
+*Modal Produtos faq_question_area
+*/
+.tab-pane-modal{
+    padding: 20px;
+}
+.panel-modal{
+    padding: 10px 0 10px 0;
+}
+.panel-modal a{
+    padding: 10px;
+    margin-right: 5px
+}
+.panel-modal h5{
+    padding: 10px;
+    margin-right: 5px
+}
+/*
+* button
+*/
+.padrao-button {
+    background-color: #fff;
+    color: #e67e05;
+}
+.padrao-button:hover {
+    background-color: #e67e05;
+    color: #fff;
+}
+.servise_version .padrao-button{
+    background-color: #fff;
+    color: #000;
+}
+.servise_version .padrao-button:hover{
+    background-color: #fff;
+    color: #e67e05;
+}
+.contato_version .padrao-button{
+    background-color: #fff;
+    color: #e67e05;
+}
+.contato_version .padrao-button:hover{
+    
+    background-color: #e67e05;
+    color: #fff;
+}
